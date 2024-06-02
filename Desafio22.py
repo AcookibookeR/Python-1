@@ -1,0 +1,6 @@
+name = str(input("Digite seu nome completo: ")).strip()
+print("Seu nome maiúsculo é: ",name.upper())
+print("Seu nome minúsculo é: ",name.lower())
+print("O seu nome possui: ",len(name) - name.count(' '),"letras.")
+letprNome = name.find(' ')
+print(f"O seu primeiro nome possui: {letprNome}.")
